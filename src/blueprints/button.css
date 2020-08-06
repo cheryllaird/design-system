@@ -1,0 +1,70 @@
+/* Primary */
+button {
+    background-color: var(--palette-primary);
+    color: var(--palette-white);
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+button:not([disabled]):hover {
+    cursor: pointer;
+    background-color: var(--palette-primary-200);
+}
+
+button.accent {
+    background-color: var(--palette-accent-900);
+    color: var(--palette-accent-300);
+}
+
+button.accent:not([disabled]):hover {
+    cursor: pointer;
+    background-color: var(--palette-accent-800);
+}
+
+
+/* Secondary */
+button.secondary {
+   background-color: transparent;
+   color: var(--palette-primary);
+   border: 2px solid var(--palette-primary);
+}
+
+button.secondary:not([disabled]):hover {
+    background-color: var(--palette-primary);
+    color: var(--palette-white);
+}
+
+button.secondary.accent {
+    color: var(--palette-accent-300);
+    border-color: var(--palette-accent-900);
+}
+
+button.secondary.accent:not([disabled]):hover {
+    background-color: var(--palette-accent-900);
+    color: var(--palette-accent-300);
+}
+
+
+/* Tertiary */
+button.tertiary {
+    background-color: transparent;
+    color: var(--palette-primary);
+    border-bottom: 3px solid var(--palette-primary);
+    padding: 10px 5px;
+    border-radius: 0;
+}
+
+button.tertiary:not([disabled]):hover {
+    background-color: var(--palette-primary-900);
+}
+
+button.tertiary.accent {
+    color: var(--palette-accent-300);
+    border-bottom-color: var(--palette-accent-900);
+}
+
+button.tertiary.accent:not([disabled]):hover {
+    background-color: var(--palette-accent-900);
+}
