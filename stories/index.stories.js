@@ -2,7 +2,7 @@ export default {
   title: 'Demo',
 };
 
-export const Heading = () => '<h1>Hello World</h1>';
+export const Heading = () => '<h1>Hello You</h1>';
 
 export const Button = () => {
   const btn = document.createElement('button');
