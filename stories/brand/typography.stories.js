@@ -1,22 +1,19 @@
-import { Meta, Preview } from '@storybook/addon-docs/blocks';
+export default {
+  title: 'Brand | Typography',
+};
 
-<Meta title="Typography | Body Text" />
+export const Fonts = () => `
+    <span>Lorem ipsum dolor sit amet</span>
+`;
 
-# Body text
+export const Headings = () => `
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+`;
 
-<Preview>
+export const Body = () => `
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</Preview>
-
-<Preview>
-    <b>Lorem ipsum dolor sit amet</b>
-    <strong>Lorem ipsum dolor sit amet</strong>
-</Preview>
-
-<Preview>
-    <i>Lorem ipsum dolor sit amet</i>
-</Preview>
-
-<Preview>
-    <a href="#">Lorem ipsum dolor sit amet</a>
-</Preview>
+`;
